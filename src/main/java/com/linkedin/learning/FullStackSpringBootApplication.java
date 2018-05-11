@@ -8,9 +8,9 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @EnableAutoConfiguration
 @ComponentScan
-public class LinkedInLearningFullStackAppAngularSpringBootApplication {
+public class FullStackSpringBootApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(LinkedInLearningFullStackAppAngularSpringBootApplication.class, args);
+        SpringApplication.run(FullStackSpringBootApplication.class, args);
     }
 }
