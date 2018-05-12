@@ -17,8 +17,8 @@ import { ComponentsModule } from '../components/components.module';
         RouterModule,
         ComponentsModule
     ],
-    declarations: [ HomeComponent ],
-    exports:[ HomeComponent ],
+    declarations: [HomeComponent],
+    exports: [HomeComponent],
     providers: []
 })
 export class HomeModule { }
