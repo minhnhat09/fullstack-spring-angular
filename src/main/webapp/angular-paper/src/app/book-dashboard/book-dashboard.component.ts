@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class BookDashboardComponent implements OnInit {
-
+    public count = [1, 2, 1, 2, 1, 2, 1, 2, 2, 2, 2, 2];
     constructor() { }
 
-    ngOnInit() {}
+    ngOnInit() {
+
+    }
 
 }
