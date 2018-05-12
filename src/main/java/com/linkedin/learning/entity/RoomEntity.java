@@ -77,4 +77,13 @@ public class RoomEntity {
 		reservationEntityList.add(reservationEntity);
 	}
 
+	@Override
+	public String toString() {
+		return "RoomEntity{" +
+				"id=" + id +
+				", roomNumber=" + roomNumber +
+				", price='" + price + '\'' +
+				", reservationEntityList=" + reservationEntityList +
+				'}';
+	}
 }
