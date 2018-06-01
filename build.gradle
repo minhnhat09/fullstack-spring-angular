@@ -3,7 +3,9 @@ buildscript {
 		springBootVersion = '1.5.2.RELEASE'
 	}
 	repositories {
-		mavenCentral()
+		maven{
+			url "http://s14725vl.orleanssrv.domsma:8080/nexus/content/repositories/central/"
+		}
 	}
 	dependencies {
 		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
